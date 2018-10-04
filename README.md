@@ -56,7 +56,7 @@ Use a REST client and GET the following
 URL: http://localhost/jwt/api/v1/profiles
 Add header:
 Key: authorization
-Value: Bearer [access_token value]
+Value: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJVc2VybmFtZSIsInByb2ZpbGVJZCI6IjIiLCJ1c2VybmFtZSI6IlVzZXJuYW1lIiwiZmlyc3ROYW1lIjoiRmlyc3ROYW1lIiwibGFzdE5hbWUiOiJMYXN0TmFtZSIsImVtYWlsIjoidXNlckBlbWFpbC5jb20iLCJyb2xlIjoiQWRtaW4iLCJpc3MiOiJBbGZhbGZhU3RyYW5nZSIsImF1ZCI6IjNBMERBQkE1LTc2MEItRTcxMS04RjM5LTc4MkJDQjQ2NDMyRiIsImV4cCI6MTUzNzE1MzY5MiwibmJmIjoxNTM3MTEwNDkyfQ.G8vtd80KVUOzhJb1-sLS_dEkq3PNFn7UlufkkzUpQbE
 ```
 
 # Example response
@@ -75,7 +75,7 @@ Value: Bearer [access_token value]
 URL: http://localhost/jwt/api/v1/profiles/secure
 Add header:
 Key: authorization
-Value: Bearer [access_token value]
+Value: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJVc2VybmFtZSIsInByb2ZpbGVJZCI6IjIiLCJ1c2VybmFtZSI6IlVzZXJuYW1lIiwiZmlyc3ROYW1lIjoiRmlyc3ROYW1lIiwibGFzdE5hbWUiOiJMYXN0TmFtZSIsImVtYWlsIjoidXNlckBlbWFpbC5jb20iLCJyb2xlIjoiQWRtaW4iLCJpc3MiOiJBbGZhbGZhU3RyYW5nZSIsImF1ZCI6IjNBMERBQkE1LTc2MEItRTcxMS04RjM5LTc4MkJDQjQ2NDMyRiIsImV4cCI6MTUzNzE1MzY5MiwibmJmIjoxNTM3MTEwNDkyfQ.G8vtd80KVUOzhJb1-sLS_dEkq3PNFn7UlufkkzUpQbE
 
 Response Status Code : 403
 ```
